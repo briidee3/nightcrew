@@ -1,3 +1,8 @@
+
+#logo {
+    size: 10%;
+}
+
 nav {
     position: fixed;
 }
@@ -5,8 +10,9 @@ nav {
 nav a {
     text-align: center;
     display: inline-block;
-    font-size: 38pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38pt;
+    font-weight: 475;
     text-shadow: 3px 2px rgb(209, 45, 127);
     padding: 10px;
 }
@@ -17,4 +23,12 @@ nav a:link,a:visited {
 }
 nav a:hover {
     text-decoration: underline;
+}
+
+main #content {
+    overflow-y: scroll;
+    align-items: center;
+    width: 80%;
+    color: white;
+    border-color: rgb(209, 45, 127);
 }
