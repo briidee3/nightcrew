@@ -1,34 +1,39 @@
-
 #logo {
     size: 10%;
 }
 
 nav {
-    position: fixed;
+    position: relative;
+    overflow-y: scroll;
+    height: 15%;
 }
-
 nav a {
     text-align: center;
+    position: relative;
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 38pt;
+    font-family: Brush Script MT, Brush Script Std;
+    font-size: 18pt;
     font-weight: 475;
-    text-shadow: 3px 2px rgb(209, 45, 127);
+    text-shadow: 2px 2px rgb(209, 45, 127);
     padding: 10px;
 }
 nav a:link,a:visited {
-    color: white;
+    color: rgb(231, 227, 227);
     text-decoration: none;
     background-color: rgb(19, 19, 19);
 }
 nav a:hover {
     text-decoration: underline;
+    background-color: rgb(28, 28, 28);
 }
 
-main #content {
+div #content {
     overflow-y: scroll;
     align-items: center;
     width: 80%;
     color: white;
     border-color: rgb(209, 45, 127);
+}
+body {
+    overflow-y: scroll;
 }
